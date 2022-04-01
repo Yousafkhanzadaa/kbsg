@@ -1,0 +1,68 @@
+name: kbsg
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.2.0
+  curved_navigation_bar: ^1.0.1
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+
+  
+  firebase_core: ^1.11.0
+  firebase_auth: ^3.3.5
+  meta: ^1.3.0
+  very_good_analysis: ^2.3.0
+  formz: ^0.4.1
+  provider: ^6.0.2
+  firebase_dynamic_links: ^4.0.5
+  # google_fonts: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  mocktail: ^0.2.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/illustrations/01.jpg
+    - assets/images/illustrations/02.jpg
+    - assets/images/illustrations/03.jpg
+    - assets/images/illustrations/04.jpg
+
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
